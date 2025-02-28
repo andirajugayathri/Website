@@ -51,7 +51,7 @@
     color: #ddd;
 }
 .navbar-scrolled .social-icon:hover {
-    color: #513ba3;
+    color: black;
 }
 .banner {
     width: 100%;
@@ -68,7 +68,7 @@
     padding: 8px; 
 }
 .navbar-scrolled .navbar-toggler {
-    border: 2px solid #6a4cbc; 
+    border: 2px solid black; 
     padding: 8px;
 }
 .navbar-toggler-icon {
