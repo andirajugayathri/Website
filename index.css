@@ -137,7 +137,7 @@
 }
 
 
-.sc{
+.cards{
     background-color:#f8f8f8;
 }
 .container2 {
@@ -202,7 +202,7 @@
 }
 
 
-.pagination {
+ .pagination {
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -259,7 +259,7 @@
     .heros .email-box input {
         flex: 1;
         border: none;
-        padding: 10px 15px;
+        padding: 10px 10px;
         border-radius: 30px;
         outline: none;
     }
@@ -273,8 +273,7 @@
         transition: 0.3s;
     }
     .heros .email-box button:hover {
-        background: white;
-        color: gray;
+        background: gray;
     }
     .heros img {
         max-width: 70%;
@@ -358,5 +357,26 @@
 @media (max-width: 576px) {
     .card {
         width: 100%;
+    }
+}
+@media (max-width: 576px) {
+    .heros {
+        padding: 40px 20px;
+    }
+    
+    .heros .email-box {
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    .heros .email-box input {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+    
+    .heros .email-box button {
+        width: 100%;
+        margin-top: 5px;
     }
 }
