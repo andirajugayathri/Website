@@ -540,6 +540,66 @@ color: white;
     transform: translateY(-3px);
 }
 
+@media (max-width: 576px) {
+    .timeline::after {
+        left: 22px;
+    }
+    
+    .tc {
+        padding-left: 50px;
+        padding-right: 15px;
+    }
+    
+    .tc::before {
+        left: 40px;
+    }
+    
+    .tc::after {
+        left: 9px;
+        width: 20px;
+        height: 20px;
+    }
+    
+    .timeline-content {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 375px) {
+    .timeline::after {
+        left: 17px;
+    }
+    
+    .tc {
+        padding-left: 40px;
+        padding-right: 10px;
+    }
+    
+    .tc::before {
+        left: 32px;
+    }
+    
+    .tc::after {
+        left: 4px;
+        width: 18px;
+        height: 18px;
+    }
+    
+    .timeline-content {
+        padding: 10px;
+    }
+    
+    .timeline-content h3 {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    
+    .timeline-content p {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+}
+
 @media (max-width: 992px) {
     .navbar-collapse {
         background-color: RGB(39, 82, 115);
