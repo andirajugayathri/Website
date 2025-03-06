@@ -224,6 +224,22 @@
                 navbar.classList.add("navbar-transparent");
             }
         });
+        let scrollAmount = 0;
+        const scrollStep = 320;
+        function scrollRight() {
+            const carousel = document.getElementById("carousel");
+            if (scrollAmount < (carousel.scrollWidth - carousel.clientWidth)) {
+                scrollAmount += scrollStep;
+                carousel.style.transform = `translateX(-${scrollAmount}px)`;
+            }
+        }
+        function scrollLeft() {
+            const carousel = document.getElementById("carousel");
+            if (scrollAmount > 0) {
+                scrollAmount -= scrollStep;
+                carousel.style.transform = `translateX(-${scrollAmount}px)`;
+            }
+        }
     </script>
 </body>
 </html>
