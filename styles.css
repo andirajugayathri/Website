@@ -371,7 +371,7 @@ color: white;
     }
     
     .about-image, .about-text {
-        max-width: 90%;
+        max-width: 95%;
     }
 }
 @media (max-width: 992px) {
